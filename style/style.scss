@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 24px;
+  line-height: 24px;
+  color: #333333;
+  font-family: "Roboto", sans-serif;
+}
+
+ul,
+ol {
+  list-style-position: inside;
+}
+
+.btnUp {
+  position: fixed;
+  right: 5vw;
+  bottom: 5vh;
+  width: 50px;
+  height: 50px;
+  border: solid 3px #333333;
+  border-radius: 50%;
+  color: #333333;
+  background: #dddddd;
+  cursor: pointer;
+  font-size: 1rem;
+  line-height: 1rem;
+  transition: background 1s linear 0.1s, color 1s linear 0.1s,
+    border 1s linear 0.1s;
+}
+
+.btnUp:hover {
+  color: #cccccc;
+  background: #aaaaaa;
+  border: solid 3px #cccccc;
+}
+
+.section {
+  padding: 1vh 5vw;
+  background-color: #e8e8f8;
+}
+
+.title {
+  font-size: 1.5rem;
+  line-height: 1rem;
+  margin-bottom: 2vh;
+  padding-top: 3vh;
+  text-align: center;
+}
+
+.contentsWrapper {
+  width: 70%;
+  margin: 0 auto;
+  border: solid 2px #333333;
+  padding: 2vh 2vw;
+}
+
+.contentsTitle {
+  font-size: 1.3rem;
+  line-height: 1rem;
+  margin-bottom: 2vh;
+  text-align: center;
+}
+
+.contentItemLink {
+  text-decoration: none;
+  color: #2aa299;
+  transition: color 0.5s linear 0.01s;
+}
+
+.contentItemLink:hover {
+  color: #2aa233;
+}
+
+.subtitle {
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+  margin-bottom: 2vh;
+  text-align: center;
+}
+
+.paragraph {
+  font-size: 1rem;
+  line-height: 1.2rem;
+  margin-bottom: 1vh;
+  text-align: justify;
+}
+
+.paragraph-withAttachments {
+  font-size: 0;
+  line-height: 0;
+}
+
+.paragraphText {
+  font-size: 1rem;
+  line-height: 1.2rem;
+}
+
+.paragraphLink {
+  font-size: 1rem;
+  line-height: 1.2rem;
+  text-decoration: none;
+  color: #5555aa;
+  transition: color 0.5s linear 0.1s;
+}
+
+.paragraphLink:hover {
+  color: #55aa55;
+  text-decoration: underline;
+}
+
+.listItem {
+  font-size: 1rem;
+  line-height: 1.2rem;
+  margin-bottom: 1vh;
+}
+
+.listItemName {
+  font-size: 1rem;
+  line-height: 1.2rem;
+  font-weight: 700;
+}
+
+.listItemDescription {
+  font-size: 1rem;
+  line-height: 1.2rem;
+}
+
+.sourceLink {
+  font-size: 0.5rem;
+  line-height: 0.5rem;
+  vertical-align: top;
+}
+
+.picturesAlbum {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.pictureWrapper {
+  width: 30%;
+}
+
+.pictureImg {
+  width: 100%;
+  height: auto;
+}
+
+.pictureDescription {
+  font-size: 0.8rem;
+  line-height: 1rem;
+  color: #999999;
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  html {
+    font-size: 14px;
+    line-height: 14px;
+  }
+
+  .btnUp {
+    width: 25px;
+    height: 25px;
+  }
+
+  .contentsWrapper {
+    width: 100%;
+  }
+
+  .picturesAlbum {
+    flex-direction: column;
+  }
+
+  .pictureWrapper {
+    width: 100%;
+    margin-bottom: 3vh;
+  }
+}
