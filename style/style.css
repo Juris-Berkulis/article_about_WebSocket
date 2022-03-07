@@ -137,6 +137,13 @@ ol {
   font-size: 0.5rem;
   line-height: 0.5rem;
   vertical-align: top;
+  color: #5555aa;
+  -webkit-transition: color 0.1s linear 0.01s;
+  transition: color 0.1s linear 0.01s;
+}
+
+.sourceLink:hover {
+  color: #55aa55;
 }
 
 .picturesAlbum {

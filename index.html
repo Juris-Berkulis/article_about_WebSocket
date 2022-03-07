@@ -80,9 +80,11 @@
                     <span class="listItemDescription">— протокол удаленного доступа, дает возможность пользователю работать на любой ЭВМ, находящейся с ним в одной сети.</span>
                 </li>
                 <li class="listItem">
-                    <span class="listItemName">WebSocket </span>
-                    <span class="listItemDescription">— используется, как правило, при разработке приложений, в которых содержимое обновляется с высокой частотой или в реальном времени.</span><!--
-                    --><a class="sourceLink" target="_blank" href="https://tproger.ru/articles/websocket-osobennosti-protokola-i-primer-ispolzovanija-na-react/">[2]</a>
+                    <span class="paragraph-withAttachments">
+                        <span class="listItemName">WebSocket </span>
+                        <span class="listItemDescription">— используется, как правило, при разработке приложений, в которых содержимое обновляется с высокой частотой или в реальном времени.</span>
+                        <a class="sourceLink" target="_blank" href="https://tproger.ru/articles/websocket-osobennosti-protokola-i-primer-ispolzovanija-na-react/">[2]</a>
+                    </span>
                 </li>
             </ul>
         </section>
@@ -90,8 +92,7 @@
             <h2 class="subtitle">WebSocket</h2>
             <p class="paragraph paragraph-withAttachments">
                 <span class="paragraphText">Протокол WebSocket («веб-сокет»), описанный в спецификации </span>
-                <a class="paragraphLink" target="_blank" href="https://datatracker.ietf.org/doc/html/rfc6455">RFC&nbsp;6455</a><!--
-                --><span class="paragraphText">, обеспечивает возможность обмена данными между браузером и сервером через постоянное соединение. Данные передаются по нему в обоих направлениях в виде «пакетов», без разрыва соединения и дополнительных HTTP-запросов.</span>
+                <a class="paragraphLink" target="_blank" href="https://datatracker.ietf.org/doc/html/rfc6455">RFC&nbsp;6455</a><span class="paragraphText">, обеспечивает возможность обмена данными между браузером и сервером через постоянное соединение. Данные передаются по нему в обоих направлениях в виде «пакетов», без разрыва соединения и дополнительных HTTP-запросов.</span>
             </p>
             <p class="paragraph paragraph-withAttachments">
                 <span class="paragraphText">WebSocket особенно хорош для сервисов, которые нуждаются в постоянном обмене данными, например онлайн игры, торговые площадки, работающие в реальном времени, и т.д.</span>
@@ -234,8 +235,10 @@
                     <span class="listItemDescription">Молчаливый отвал соединения. При отправке пакета в WebSocket вы не узнаете о том, доставлен ли он или нет, пока не пройдёт время таймаута — по умолчанию 75 секунд. Зачастую приходится вводить дополнительные механизмы общения между клиентом и сервером, чтобы быстро понять, отвечает ли клиент.</span>
                 </li>
                 <li class="listItem">
-                    <span class="listItemDescription">Смена сети клиентом. Бывают ситуации, когда клиент находится в дороге и меняется сеть, в которой находится устройство. В таких случаях сервер ничего не знает о смене адреса, если клиент не закрыл соединение при переподключении к другой сети.</span><!--
-                    --><a class="sourceLink" target="_blank" href="https://tproger.ru/articles/websocket-osobennosti-protokola-i-primer-ispolzovanija-na-react/">[2]</a>
+                    <spanp class="paragraph-withAttachments">
+                        <span class="listItemDescription">Смена сети клиентом. Бывают ситуации, когда клиент находится в дороге и меняется сеть, в которой находится устройство. В таких случаях сервер ничего не знает о смене адреса, если клиент не закрыл соединение при переподключении к другой сети.</span>
+                        <a class="sourceLink" target="_blank" href="https://tproger.ru/articles/websocket-osobennosti-protokola-i-primer-ispolzovanija-na-react/">[2]</a>
+                    </spanp>
                 </li>
             </ol>
         </section>
@@ -247,8 +250,10 @@
                     <span class="listItemDescription">торговые приложения с изменчивостью котировок, цен в реальном времени: платформы продаж, биржи;</span>
                 </li>
                 <li class="listItem">
-                    <a class="paragraphLink" target="_blank" href="https://mcs.mail.ru/blog/top-9-js-dvizhkov-i-bibliotek-dlya-igr-v-2020-godu">игровые приложения</a><!--
-                    --><span class="listItemDescription">;</span>
+                    <span class="paragraph-withAttachments">
+                        <a class="paragraphLink" target="_blank" href="https://mcs.mail.ru/blog/top-9-js-dvizhkov-i-bibliotek-dlya-igr-v-2020-godu">игровые приложения</a>
+                        <span class="listItemDescription">;</span>
+                    </span>
                 </li>
                 <li class="listItem">
                     <span class="listItemDescription">чаты, в том числе на сайтах поддержки;</span>
@@ -284,8 +289,10 @@
                     <span class="listItemDescription">Запросы и ответы приходят без задержек и сетевой нагрузки.</span>
                 </li>
                 <li class="listItem">
-                    <span class="listItemDescription">Подходит для маркетплейсов, бирж, игровых приложений, чатов, соцсетей, интернета вещей, push-уведомлений.</span><!--
-                    --><a class="sourceLink" target="_blank" href="https://mcs.mail.ru/blog/websocket-kogda-sleduet-ispolzovat-i-preimushhestva">[1]</a>
+                    <span class="paragraph-withAttachments">
+                        <span class="listItemDescription">Подходит для маркетплейсов, бирж, игровых приложений, чатов, соцсетей, интернета вещей, push-уведомлений.</span>
+                        <a class="sourceLink" target="_blank" href="https://mcs.mail.ru/blog/websocket-kogda-sleduet-ispolzovat-i-preimushhestva">[1]</a>
+                    </span>
                 </li>
             </ol>
         </section>
@@ -293,22 +300,28 @@
             <h2 class="subtitle">Источники</h2>
             <ol class="sourceList">
                 <li class="listItem">
-                    <a class="paragraphLink" target="_blank" href="https://mcs.mail.ru/blog/websocket-kogda-sleduet-ispolzovat-i-preimushhestva">Статья "WebSocket: что это, когда следует использовать и какие преимущества дает"</a>
-                    <span class="listItemDescription">&nbsp;на&nbsp;</span>
-                    <a class="paragraphLink" target="_blank" href="https://mcs.mail.ru/">mcs.mail.ru/</a><!--
-                    --><span class="listItemDescription">;</span>
+                    <span class="paragraph-withAttachments">
+                        <a class="paragraphLink" target="_blank" href="https://mcs.mail.ru/blog/websocket-kogda-sleduet-ispolzovat-i-preimushhestva">Статья "WebSocket: что это, когда следует использовать и какие преимущества дает"</a>
+                        <span class="listItemDescription">&nbsp;на&nbsp;</span>
+                        <a class="paragraphLink" target="_blank" href="https://mcs.mail.ru/">mcs.mail.ru/</a>
+                        <span class="listItemDescription">;</span>
+                    </span>
                 </li>
                 <li class="listItem">
-                    <a class="paragraphLink" target="_blank" href="https://tproger.ru/articles/websocket-osobennosti-protokola-i-primer-ispolzovanija-na-react/">Статья "WebSocket: особенности протокола и пример использования на React"</a>
-                    <span class="listItemDescription">&nbsp;на&nbsp;</span>
-                    <a class="paragraphLink" target="_blank" href="https://tproger.ru/">tproger.ru/</a><!--
-                    --><span class="listItemDescription">;</span>
+                    <span class="paragraph-withAttachments">
+                        <a class="paragraphLink" target="_blank" href="https://tproger.ru/articles/websocket-osobennosti-protokola-i-primer-ispolzovanija-na-react/">Статья "WebSocket: особенности протокола и пример использования на React"</a>
+                        <span class="listItemDescription">&nbsp;на&nbsp;</span>
+                        <a class="paragraphLink" target="_blank" href="https://tproger.ru/">tproger.ru/</a>
+                        <span class="listItemDescription">;</span>
+                    </span>
                 </li>
                 <li class="listItem">
-                    <a class="paragraphLink" target="_blank" href="https://learn.javascript.ru/websocket">WebSocket</a>
-                    <span class="listItemDescription">&nbsp;на&nbsp;</span>
-                    <a class="paragraphLink" target="_blank" href="https://learn.javascript.ru/">learn.javascript.ru/</a><!--
-                    --><span class="listItemDescription">.</span>
+                    <span class="paragraph-withAttachments">
+                        <a class="paragraphLink" target="_blank" href="https://learn.javascript.ru/websocket">WebSocket</a>
+                        <span class="listItemDescription">&nbsp;на&nbsp;</span>
+                        <a class="paragraphLink" target="_blank" href="https://learn.javascript.ru/">learn.javascript.ru/</a>
+                        <span class="listItemDescription">.</span>
+                    </span>
                 </li>
             </ol>
         </section>
